@@ -1,12 +1,10 @@
 # News
-https://www.youtube.com/@PTVNewsOfficial/live
-https://www.youtube.com/@NatGeoAnimals/live
-https://www.youtube.com/@geonews/live
-
-# International News
-https://www.youtube.com/@ArynewsTvofficial/live
-https://www.youtube.com/@ARYDigitalasia/live
-https://www.youtube.com/@Samaatv/live
-https://www.youtube.com/@DunyanewsOfficial/live
-https://www.youtube.com/@ExpressNewspkofficial/live
-https://www.youtube.com/@pakistantvglobal/live
+PTV NEWS|https://www.youtube.com/@PTVNewsOfficial/live
+NatGeoANimals|https://www.youtube.com/@NatGeoAnimals/live
+GeoNews|https://www.youtube.com/@geonews/live
+AryNews|https://www.youtube.com/@ArynewsTvofficial/live
+AryDigitalAsia|https://www.youtube.com/@ARYDigitalasia/live
+SamaaTv|https://www.youtube.com/@Samaatv/live
+DunyaNews|https://www.youtube.com/@DunyanewsOfficial/live
+ExpressNews|https://www.youtube.com/@ExpressNewspkofficial/live
+PakistanGlobal|https://www.youtube.com/@pakistantvglobal/live
