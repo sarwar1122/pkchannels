@@ -2,11 +2,11 @@ name: Hourly Live M3U Update
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs exactly at minute 0 of every hour
-  workflow_dispatch:     # Allows you to click a button to run it manually
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:     # Allows manual trigger
 
 permissions:
-  contents: write        # Essential to avoid the 403 push permission error
+  contents: write        # Essential to avoid push errors
 
 jobs:
   build-and-update:
@@ -15,6 +15,13 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+
+      - name: Fix Runner Network DNS
+        # Forces the runner container to resolve domain names properly using Google DNS
+        run: |
+          sudo echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+          sudo echo "nameserver 8.8.4.4" | sudo tee -a /etc/resolv.conf > /dev/null
+          ping -c 2 youtube.com || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,7 +39,6 @@ jobs:
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "github-actions[bot]@://github.com"
           git add live_news.m3u
-          # Only commit if the file actually changed to avoid unnecessary commits
           git diff --quiet && git diff --staged --quiet || (git commit -m "Hourly playlist auto-update" && git push)
