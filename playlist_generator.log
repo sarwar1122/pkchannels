@@ -1482,3 +1482,56 @@
 2026-09-05 08:58:08,517 [INFO] Run complete – live: 0 | offline: 9 | failed: 0
 2026-09-05 08:58:08,517 [WARNING] No live streams found – playlist not updated
 2026-09-05 08:58:08,518 [INFO] Status written to playlist_status.json
+2026-09-05 12:35:50,581 [INFO] ============================================================
+2026-09-05 12:35:50,581 [INFO] IPTV Playlist Generator – starting run
+2026-09-05 12:35:50,581 [INFO] ============================================================
+2026-09-05 12:35:50,581 [INFO] Loaded 9 channel(s) from channels.txt
+2026-09-05 12:35:50,581 [INFO] --------------------------------------------------
+2026-09-05 12:35:50,581 [INFO] Processing channel 1/9: PTV NEWS
+2026-09-05 12:35:50,581 [INFO] Scraping: PTV NEWS (https://www.youtube.com/@PTVNewsOfficial/live)
+2026-09-05 12:35:52,111 [INFO] [PTV NEWS] No active live broadcast detected
+2026-09-05 12:35:52,112 [INFO] [PTV NEWS] Skipping – channel offline or scrape failed
+2026-09-05 12:35:55,277 [INFO] --------------------------------------------------
+2026-09-05 12:35:55,277 [INFO] Processing channel 2/9: NatGeoANimals
+2026-09-05 12:35:55,277 [INFO] Scraping: NatGeoANimals (https://www.youtube.com/@NatGeoAnimals/live)
+2026-09-05 12:35:56,721 [INFO] [NatGeoANimals] No active live broadcast detected
+2026-09-05 12:35:56,721 [INFO] [NatGeoANimals] Skipping – channel offline or scrape failed
+2026-09-05 12:36:00,140 [INFO] --------------------------------------------------
+2026-09-05 12:36:00,141 [INFO] Processing channel 3/9: GeoNews
+2026-09-05 12:36:00,141 [INFO] Scraping: GeoNews (https://www.youtube.com/@geonews/live)
+2026-09-05 12:36:02,180 [INFO] [GeoNews] No active live broadcast detected
+2026-09-05 12:36:02,180 [INFO] [GeoNews] Skipping – channel offline or scrape failed
+2026-09-05 12:36:05,906 [INFO] --------------------------------------------------
+2026-09-05 12:36:05,906 [INFO] Processing channel 4/9: AryNews
+2026-09-05 12:36:05,906 [INFO] Scraping: AryNews (https://www.youtube.com/@ArynewsTvofficial/live)
+2026-09-05 12:36:07,394 [INFO] [AryNews] No active live broadcast detected
+2026-09-05 12:36:07,394 [INFO] [AryNews] Skipping – channel offline or scrape failed
+2026-09-05 12:36:10,257 [INFO] --------------------------------------------------
+2026-09-05 12:36:10,257 [INFO] Processing channel 5/9: AryDigitalAsia
+2026-09-05 12:36:10,257 [INFO] Scraping: AryDigitalAsia (https://www.youtube.com/@ARYDigitalasia/live)
+2026-09-05 12:36:11,449 [INFO] [AryDigitalAsia] No active live broadcast detected
+2026-09-05 12:36:11,450 [INFO] [AryDigitalAsia] Skipping – channel offline or scrape failed
+2026-09-05 12:36:14,380 [INFO] --------------------------------------------------
+2026-09-05 12:36:14,380 [INFO] Processing channel 6/9: SamaaTv
+2026-09-05 12:36:14,380 [INFO] Scraping: SamaaTv (https://www.youtube.com/@Samaatv/live)
+2026-09-05 12:36:16,703 [INFO] [SamaaTv] No active live broadcast detected
+2026-09-05 12:36:16,703 [INFO] [SamaaTv] Skipping – channel offline or scrape failed
+2026-09-05 12:36:20,444 [INFO] --------------------------------------------------
+2026-09-05 12:36:20,444 [INFO] Processing channel 7/9: DunyaNews
+2026-09-05 12:36:20,444 [INFO] Scraping: DunyaNews (https://www.youtube.com/@DunyanewsOfficial/live)
+2026-09-05 12:36:22,415 [INFO] [DunyaNews] No active live broadcast detected
+2026-09-05 12:36:22,415 [INFO] [DunyaNews] Skipping – channel offline or scrape failed
+2026-09-05 12:36:26,587 [INFO] --------------------------------------------------
+2026-09-05 12:36:26,588 [INFO] Processing channel 8/9: ExpressNews
+2026-09-05 12:36:26,588 [INFO] Scraping: ExpressNews (https://www.youtube.com/@ExpressNewspkofficial/live)
+2026-09-05 12:36:28,096 [INFO] [ExpressNews] No active live broadcast detected
+2026-09-05 12:36:28,096 [INFO] [ExpressNews] Skipping – channel offline or scrape failed
+2026-09-05 12:36:32,769 [INFO] --------------------------------------------------
+2026-09-05 12:36:32,769 [INFO] Processing channel 9/9: PakistanGlobal
+2026-09-05 12:36:32,769 [INFO] Scraping: PakistanGlobal (https://www.youtube.com/@pakistantvglobal/live)
+2026-09-05 12:36:34,876 [INFO] [PakistanGlobal] No active live broadcast detected
+2026-09-05 12:36:34,877 [INFO] [PakistanGlobal] Skipping – channel offline or scrape failed
+2026-09-05 12:36:34,877 [INFO] ============================================================
+2026-09-05 12:36:34,877 [INFO] Run complete – live: 0 | offline: 9 | failed: 0
+2026-09-05 12:36:34,877 [WARNING] No live streams found – playlist not updated
+2026-09-05 12:36:34,877 [INFO] Status written to playlist_status.json
